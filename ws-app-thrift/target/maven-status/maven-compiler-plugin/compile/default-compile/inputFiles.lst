@@ -1,0 +1,8 @@
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-thrift/target/generated-sources/thrift/es/udc/ws/app/thrift/ThriftCourseDto.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-thrift/target/generated-sources/thrift/es/udc/ws/app/thrift/ThriftCourseService.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-thrift/target/generated-sources/thrift/es/udc/ws/app/thrift/ThriftEnrollmentAlreadyCancelledException.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-thrift/target/generated-sources/thrift/es/udc/ws/app/thrift/ThriftEnrollmentDto.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-thrift/target/generated-sources/thrift/es/udc/ws/app/thrift/ThriftInputValidationException.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-thrift/target/generated-sources/thrift/es/udc/ws/app/thrift/ThriftInstanceNotFoundException.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-thrift/target/generated-sources/thrift/es/udc/ws/app/thrift/ThriftLateCancellationException.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-thrift/target/generated-sources/thrift/es/udc/ws/app/thrift/ThriftUserMismatchException.java
