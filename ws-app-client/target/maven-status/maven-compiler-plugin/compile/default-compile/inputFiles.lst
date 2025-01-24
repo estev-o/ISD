@@ -1,0 +1,15 @@
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/ClientCourseService.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/ClientCourseServiceFactory.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/dto/ClientCourseDto.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/dto/ClientEnrollmentDto.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/exceptions/ClientCourseAlreadyStartedException.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/exceptions/ClientEnrollmentAlreadyCancelledException.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/exceptions/ClientLateCancellationException.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/exceptions/ClientNotEnoughSeatsException.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/exceptions/ClientUserMismatchException.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/rest/RestClientCourseService.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/rest/json/JsonToClientCourseDtoConversor.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/rest/json/JsonToClientEnrollmentDtoConversor.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/rest/json/JsonToClientExceptionConversor.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/service/thrift/ThriftClientCourseService.java
+/home/estevo/ISD/PRACTICA1/ws-app/ws-app-client/src/main/java/es/udc/ws/app/client/ui/AppServiceClient.java

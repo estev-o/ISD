@@ -1,0 +1,14 @@
+es/udc/ws/app/client/service/exceptions/ClientEnrollmentAlreadyCancelledException.class
+es/udc/ws/app/client/service/rest/RestClientCourseService.class
+es/udc/ws/app/client/service/rest/json/JsonToClientCourseDtoConversor.class
+es/udc/ws/app/client/service/exceptions/ClientCourseAlreadyStartedException.class
+es/udc/ws/app/client/service/exceptions/ClientLateCancellationException.class
+es/udc/ws/app/client/service/ClientCourseServiceFactory.class
+es/udc/ws/app/client/ui/AppServiceClient.class
+es/udc/ws/app/client/service/rest/json/JsonToClientExceptionConversor.class
+es/udc/ws/app/client/service/dto/ClientEnrollmentDto.class
+es/udc/ws/app/client/service/exceptions/ClientUserMismatchException.class
+es/udc/ws/app/client/service/rest/json/JsonToClientEnrollmentDtoConversor.class
+es/udc/ws/app/client/service/exceptions/ClientNotEnoughSeatsException.class
+es/udc/ws/app/client/service/ClientCourseService.class
+es/udc/ws/app/client/service/dto/ClientCourseDto.class
