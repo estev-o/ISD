@@ -1,0 +1,181 @@
+1. Octubre 3 2024
+               +Los commits de este dia no llevaban [VARIOS] en el mensaje
+	- [VARIOS] PRUEBA
+	           +Commits para ver si se actualizaba el archivo
+	- [VARIOS] PRUEBA ESTEVO
+
+2. Octubre 17 2024
+               +Los commits de este dia no llevaban [VARIOS] en el mensaje
+	- [VARIOS] Base proyecto
+	- [VARIOS] Base proyecto 2
+	- [VARIOS] IMPLEMENTACIÓN CLASE CURSO
+	- [VARIOS] IMPLEMENTACIÓN CLASE CURSO (EN EL BUEN SITIO)
+	- [VARIOS] DAO y Factory
+	- [VARIOS] IMPLEMENTACIÓN CLASE COMPLETA
+	- [VARIOS] IMPLEMENTACIÓN CLASE COMPLETA (AHORA SÍ)
+	- [VARIOS] Clase Enrollment
+	- [VARIOS] Clase Enrollment
+	- [VARIOS] Clases Abstractas, y SQL y JDBC implementado
+	- [VARIOS] Clases CourseServiceImpl y CourseServiceFactory
+
+3. Octubre 24 2024
+    - [VARIOS] CourseService
+    - [VARIOS] CourseService
+	- [VARIOS] Excepciones implementadas
+	- [VARIOS] Excepciones traducidas
+	- [VARIOS] Preparación para subir implementaciones
+	- [FUNC-1] Implementación de la función addCourse en servicio de la capa Modelo
+	- [FUNC-3] Primera implementación de findCourseById sin testear
+
+4. Noviembre 4 2024
+	- [VARIOS] Implementación de CourseServiceFactory
+
+5. Noviembre 5 2024
+	- [VARIOS] Añadido los parámetros de configuración y las tablas SQL
+	- [FUNC-3] Implementado el test de findCourseById y removeCourse para usarlo en las pruebas
+	- [VARIOS] Quitados warnings en interfaz CourseService
+	- [FUNC-3] Añadido test con números inválidos (negativos)
+	- [VARIOS] Create LÉEME.txt
+	            +No se subió poniendo [VARIOS]
+	- [FUNC-4] Añadida implementación de enrollInCourse para inscribirse en un curso (Modificación del constructor de Enrollment extra)
+	- Merge remote-tracking branch 'origin/master'
+	            +Este commit se hizo automáticamente al hacer el merge
+	- [FUNC-4] Implementados los test de enrollInCourse, modificado también enrollInCourse (Esperando a cambio de addCourse)
+	- [VARIOS] Actualizado el LÉEME.txt
+
+6. Noviembre 7 2024
+	- [FUNC-2] Añadida e implementada la operación buscar cursos por ciudad y fecha
+	- [FUNC-2] Añadido test AddCourseAndFindCourseByCityAndDate
+	- [FUNC-1] Añadidas e implementadas diferentes pruebas para verificar las excepciones de addCourse
+	- [VARIOS] Remove quitado de CourseServiceImpl para meterlo en AppServiceTest y excepciones nuevas añadidas
+	- [VARIOS] Remove implementado en AppServiceTest, arreglado remove en mis test y uso de nuevas excepciones en mis test
+	- [VARIOS] Implementado updateCourse a el test para probar fechas futuras
+	- [FUNC-4] Uso de updateCourse en test EnrollInCourseAlreadyStarted para simular un curso ya empezado
+
+7. Noviembre 8 2024
+	- [FUNC-5] Implementación de la función cancelEnrollment
+
+8. Noviembre 9 2024
+	- [VARIOS] Corrección de la función cancelEnrollment e implementación de su prueba de ejecución
+	- [VARIOS] Implementación de Variables comunes para los tests, y modificación en mis test tests
+	- Merge remote-tracking branch 'origin/master'
+	            +Este commit se hizo automáticamente al hacer el merge
+	- [FUNC-5] Implementación de prueba en el caso en el que el formato de email no sea válido u el email del usuario sea distinto
+	- [FUNC-6] Añadida e implementada la función findUserEnrollments y findByUserEmail con su correspondiente test
+	- [FUNC-5] Implementación de prueba de la excepción LateCancelation
+	- [FUNC-5] Implementación de prueba de la excepción EnrollmentAlreadyCancelled
+
+9. Noviembre 10 2024
+	- [FUNC-1] Corrección de la función addCourse
+	- [FUNC-6] Corrección de funciones findByUserEmail y testFindEnrollmentByUserEmail
+	- [FUNC-5] Corrección del testCancelEnrollment()
+	- [VARIOS] Corrección de cómo se guardan las fechas en Enrollment
+	- [FUNC-6] Corrección de test testFindEnrollmentByUserEmail
+	- [VARIOS] Actualización de LÉEME.txt
+10. Noviembre 21, 2024
+		+ Los tres siguientes commits no llevan [VARIOS]
+	- [VARIOS] Corrección de fallos
+		+ Correción de los errores especificados por el profesor al asignarnos la nota
+	- [VARIOS] Creación de packages y clases capa servicio
+	- [VARIOS] Clases CourseToRestCourseDtoConversor, EnrollmentToRestEnrollmentDtoConversor y RestCourseDto
+		+ Implementadas las clases nombradas en el commit
+	- [FUNC-4] Test arreglados
+	- [VARIOS] JSON to Rest implementados Course y Enrollment
+	- [VARIOS] Añadida la excepcion personalizada para cancelEnrolment
+	- [VARIOS] Añadido el AppExceptionToJsonConversor
+11. Noviembre 25, 2024
+		+ El siguiente commit carecía de [VARIOS]
+	- [VARIOS] Clases RestCourseDto, EnrollmentToRestEnrollmentDtoConversor, CourseToRestCourseDtoConversor e incorporacion de un constructor nuevo en la clase Course
+		+ Creación de dichas clases.
+12. Noviembre 28, 2024
+		+ Se han producido varios Merge remote-tracking branch 'origin/master' en durante esta sesión de trabajo (pedimos disculpas por ello)
+	- [VARIOS] Implementada la clase RestEnrollmentDto
+	- [VARIOS] JSON to Rest arreglado en Course y Enrollment
+	- [VARIOS] Varios añadido
+		+ Carecia de [VARIOS] e implementa cambios en el constructor de RestEnrollmentDto
+	- [VARIOS] Varios añadido
+		+ Carecia de [VARIOS] y corrige la fucnion setCancellationDate
+	- [VARIOS] Corregida la funcion toLateCancellationException
+	- [VARIOS] Varios añadido
+		+ Carecia de [VARIOS] e implementa ClientCourseDto
+	- Merge remote-tracking branch 'origin/master'
+	- [VARIOS] Añadida la excepcion ClientCourseAlreadyStartedException
+	- [VARIOS] Añadida la excepcion ClientEnrollmentAlreadyCancelledException
+	- [VARIOS] Añadida la excepcion ClientLateCancellationException
+	- [VARIOS] Añadida la excepcion ClientNotEnoughSeatsException
+	- [VARIOS] Creado ClientCourseService y ClientCourseServiceFactory
+	- Merge remote-tracking branch 'origin/master'
+	- [VARIOS] Añadida la excepcion ClientUserMismatchException
+	- Merge remote-tracking branch 'origin/master'
+	- [VARIOS] Añadido el esqueleto de la clase rest de cliente
+	- [VARIOS] Creado JsonToClientCourseDtoConversor y editado ClientCourseDto
+	- [VARIOS] arreglado las implementaciones en ClientCourseService
+	- [VARIOS] Varios añadido
+		+ Carecia de [VARIOS] e implementación de JsonToClientEnrollmentDtoConversor
+	- Merge remote-tracking branch 'origin/master'
+	- [VARIOS] Cambios a web.xml (QUEDA THRIFT COMENTADO)
+		+ Se comentó la parte de Thrift
+	- Merge remote-tracking branch 'origin/master'
+	- [VARIOS] Varios añadido
+		+ Carecia de [VARIOS] e implementación del ClientEnrollmentDto
+	- [VARIOS] Añadido la funcion validateStatusCode en la clase RestClientCourseService
+	- Merge remote-tracking branch 'origin/master'
+	- [VARIOS] Cambios a ConfigurationParameters.properties
+	- Merge remote-tracking branch 'origin/master'
+	- [VARIOS] Varios añadido
+		+ Carecia de [VARIOS] y cambios realizados en RestClientCourseService y JsonToClientEnrollmentDtoConversor
+13. Diciembre 5, 2024
+	- [VARIOS] Implementado JsonToClientExceptionConversor (primer intento)
+	- [VARIOS] Añadida la implementación de GET en CourseServlet y POST en EnrollmentServlet
+	- [FUNC-1] implementado el processPost del CourseServlet
+	- [VARIOS] EnrollmentServlet.java y RestClientCourseService.java (FUNC-2 y FUNC-6)
+		+ Tenia [Varios] en vez de [VARIOS]
+	- [VARIOS] Añadida la función toInputStream
+	- [VARIOS] Corregida la función toClientCourseDto(InputStream)
+	- [FUNC-2] Arreglado error de la funcion findCoursesByCity
+	- [FUNC-1] Añadida la función addCourse
+	- [FUNC-2] [FUNC-6] Añadidas en AppServiceClient.java
+	- [FUNC-3] [FUNC-4] Añadidas las funciones en RestClientCourseService y arreglos necesarios en ClientEnrollmentDto y JsonToClientEnrollmentDtoConversor
+	- [FUNC-5] Añadida la función cancelEnrollment
+	- [FUNC-1] Arreglado el error relacionado con el InputValidationException
+	- [VARIOS] Arreglado toClientEnrollmentDto (ahora sí perdon)
+	- [FUNC-3] [FUNC-4] Añadidas las funciones en AppServiceClient
+	- Merge remote-tracking branch 'origin/master'
+	- [FUNC-3] [FUNC-4] Arreglado como devuelven el enrollment
+	- [VARIOS] Correccion en RestClientCourseService.java
+		+ Tenia [Varios] en vez de [VARIOS]
+	- Merge remote-tracking branch 'origin/master'
+	- [VARIOS] Correccion en RestClientCourseService.java y ClientCourseService.java
+14. Diciembre 6,2024
+	- [VARIOS][FUNC-1] Añadida la función validateArgs, modificado el constructor de ClientCourseDto y Añadida la función add a AppServiceClient
+	- [VARIOS] Arreglado llamada a CourseDto
+15. Diciembre 9, 2024
+	- [VARIOS][FUNC-1] Arreglado el test de la función 5, arreglada la interfaz de la función 5 y implementada dicha funcion en el AppServiceClient
+16. Diciembre 10, 2024
+	- [VARIOS] Correccion en EnrollmentToRestEnrollmentDtoConversor.java
+		+ Tenia [Varios] en vez de [VARIOS]
+	- [VARIOS] Arreglado JsonToRestCourseDtoConversor y JsonToRestEnrollmentDtoConversor
+	- [FUNC-5][VARIOS] Añadida una excepcion del cancelEnrolment a la interfaz CourseService y modificado el processPost del EnrollmentServlet
+	- Merge remote-tracking branch 'origin/master'
+	- [FUNC-4] Arreglado en EnrollmentServlet la funcionalidad de post, y preparación para implementación de otra funcionalidad
+17. Diciembre 11, 2024
+	- [FUNC-5] Corregida la función cancelEnrolment en el processPost del servlet de enrolment
+	- [FUNC-1] Corregida la función addCourse de la capa de acceso a servicios
+	- [FUNC-3][FUNC-4][VARIOS] Arregladas las funciones en el cliente, arreglando errores de otras funciones varias y como se pasan algunos errores al cliente
+	- [VARIOS] Arreglado ClientCourseDto para que actualice bien los seats
+18. Diciembre 12, 2024
+	- [FUNC-5][VARIOS] Corregida la función de cancelEnrollment y Corregido el manejo de las excepciones
+	- Merge remote-tracking branch 'origin/master'
+	- [FUNC-3][FUNC-4] Arregladas excepciones faltantes y mensajes al tirarlarlas
+	- [FUNC-5]Corregida la función cancelEnrollment (ahora el email va en el body)
+	- [VARIOS] Corregido el mensaje de LateCancelationException
+	- [VARIOS] Correccion en AppServiceClient.java, EnrollmentServlet.java y RestClientCourseService.java
+		+ Antes [Varios] no [VARIOS]
+19. Diciembre 15, 2024
+	- [VARIOS] Create PRUEBAS.txt
+	-[ VARIOS] Correccion en AppServiceClient.java y RestClientCourseService.java
+	- [VARIOS] Añadidos los commits corregidos al fichero LEEME.txt
+	- [VARIOS] Correccion EN AppServiceClient.java (printfs FUNC 2 y 6)
+	- Merge remote-tracking branch 'origin/master'
+	- [VARIOS] Actualizado ConfiguratioParameters.properties y LEEEME.txt
+	
